@@ -290,9 +290,22 @@ footer,
 /* end sticky footer styling */
 
 /* Responsive Layout */
+/* Max-width: 640px */
+@media screen and (max-width: 400px)
+{
+  #masthead {text-align: center;}
+  #logo {width: 100%;}
+  nav {width: 100%; max-width: 640px; margin: 15px 15px;}
+  nav a {display: inline-block; margin-left: 30px; line-height: 18px;}
+  .container {padding: 0px;}
+  .main-section {width: 100%; max-width: 340px; margin: 50px 30px 30px;}
+  .auth-image {width: 100%; max-width: 340px; padding-bottom: 20px;}
+  .sidebar {width: 100%; max-width: 340px; margin: 10px 30px 30px 30px;}
+  .work {width: 100%; max-width: 340px;}
+}
 
 /* Max-width: 640px */
-@media screen and (max-width: 640px)
+@media screen and (min-width: 401px) and (max-width: 640px)
 {
   #masthead {text-align: center;}
   #logo {width: 100%;}
